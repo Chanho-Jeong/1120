@@ -19,7 +19,9 @@ public class Client1 {
         @Cleanup
         OutputStream outputStream = socket.getOutputStream();
 
+        // Wise 호출
         String randomSaying = WiseSaying.shuffleNumbers();
+
 // 여기부터 잘 이해가지 않음
         byte[] arr = (randomSaying+"\n").getBytes();
         outputStream.write(arr);

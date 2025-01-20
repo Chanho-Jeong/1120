@@ -4,11 +4,13 @@ import java.util.*;
 
 public class WiseSaying {
     public static  String shuffleNumbers() {
+
         // 1~5의 숫자 리스트 생성
         List<Integer> numbers = new ArrayList<>();
         for (int i = 1; i <= 5; i++) {
             numbers.add(i);
         }
+        //숫자마다 글 삽입하기
         Map<Integer, String> mapping = new HashMap<>();
         mapping.put(1, "나는 비빔인간입니다");
         mapping.put(2, "아직 난 배고프다");
