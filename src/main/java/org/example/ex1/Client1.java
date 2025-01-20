@@ -20,7 +20,7 @@ public class Client1 {
         OutputStream outputStream = socket.getOutputStream();
 
         String randomSaying = WiseSaying.shuffleNumbers();
-
+// 여기부터 잘 이해가지 않음
         byte[] arr = (randomSaying+"\n").getBytes();
         outputStream.write(arr);
 

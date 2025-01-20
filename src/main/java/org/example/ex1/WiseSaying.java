@@ -22,7 +22,7 @@ public class WiseSaying {
         //하나뽑기
         int selectedNumber = numbers.get(0);
 
-        //대사출력
+        //대사출력 - 여기부분 잘 이해 안감
         String result = selectedNumber+":"+mapping.get(selectedNumber);
 
         return result;
